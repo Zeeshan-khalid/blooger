@@ -1,0 +1,1317 @@
+
+/* @import url('../css/fonts.css'); */
+@import url("../fonts/avenir-lt-std-cufonfonts/AvenirLTStdfont.css");
+@import url("../css/fonts/oswald-cufonfonts-webfont/oswald-cufonfonts-webfont.css");
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap'); 
+
+
+html, body{
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #081120;
+    
+}
+
+:root{
+
+    /*      Theme colors        */
+    --text-gray: #3f4954;
+    --text-light : #686666da;
+    --bg-color: #0f0f0f;
+    --white: #ffffff;
+    --midnight: #104f55;
+
+    /* gradient color   */
+    --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+
+}
+.container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: auto !important;
+}
+
+/* ---------------- Global Classes ---------------*/
+
+a{
+    text-decoration: none;
+    color: var(--text-gray);
+}
+.col-md-9 {
+    margin: 0;
+    padding: 0;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;    
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style-type: none;
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.5rem;
+}
+
+h2{
+    font-family: 'Bebas Neue', cursive;
+}
+
+h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.3rem;
+}
+
+button.btn{
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    font-family: 'Bebas Neue', cursive;
+    cursor: pointer;
+}
+
+span{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.container{
+    margin: 0 5vw;
+}
+
+.text-gray{
+    color: var(--text-gray);
+}
+
+p{
+    font-family: 'Bebas Neue', cursive;
+    color: var(--text-light);
+}
+
+/* ------x------- Global Classes -------x-------*/
+
+/* --------------- navbar ----------------- */
+
+/* .nav{
+    background: white;
+    padding: 0 2rem;
+    height: 0rem;
+    min-height: 10vh;
+    overflow: hidden;
+    transition: height 1s ease-in-out;
+}
+
+.nav .nav-menu{    
+    justify-content: space-between;
+}
+
+.nav .toggle-collapse{
+    position: absolute;
+    top: 0%;
+    width: 90%;
+    cursor: pointer;
+    display: none;
+}
+
+.nav .toggle-collapse .toggle-icons{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.7rem 0;
+}
+
+.nav .toggle-collapse .toggle-icons i{
+    font-size: 1.4rem;
+    color: var(--text-gray);
+}
+
+.collapse{
+    height: 30rem;
+}
+
+.nav .nav-items{
+    display: flex;
+    margin: 0;
+}
+
+.nav .nav-items .nav-link{
+    padding: 1.6rem 1rem;
+    font-size: 1.1rem;
+    position: relative;
+    font-family: var(--Abel);
+    font-size: 1.1rem;
+}
+
+.nav .nav-items .nav-link:hover{
+    background-color: var(--midnight);
+}
+
+.nav .nav-items .nav-link:hover a{
+    color: var(--white);
+}
+
+.nav .nav-brand a{
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    display: block;
+    font-family: var(--Lexend);
+    font-size: 1.6rem;
+}
+
+.nav .social{
+    padding: 1.4rem 0
+}
+
+.nav .social i{
+    padding: 0 .2rem;
+}
+
+.nav .social i:hover{
+    color: #a1c4cf;
+} */
+
+
+.navbar-brand img
+{
+    width:140px;
+}
+.navbar-brand
+{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10PX;
+}
+.navbar
+{
+   padding: 1em 0 !important;
+}
+.navbar-toggler
+{
+    border: none !important;
+    outline: none !important;
+}
+.nav-item a {
+    color: white!important;
+    text-transform: uppercase!important;
+    text-decoration: none!important;
+    display: block!important;
+    padding: 10px 50px!important;
+    margin-top: 50px!important;
+    font-family: 'Bebas Neue', cursive!important;
+    font-size: 18px;
+    line-height: 21.6px;
+    letter-spacing: 1.44px;
+}
+
+.collapse{
+    height: 3rem;
+    columns: white;
+}
+
+
+
+/* -------x------- navbar ---------x------- */
+
+
+/* ----------------- Main Content----------- */
+
+/* --------------- Site title ---------------- */
+main .site-title{
+    background: url('../assets/images/Globe_BG.webp');
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+}
+
+main .site-title .site-background{
+    padding-top: 10rem;
+    /* text-align: center; */
+    color: var(--white);
+}
+
+main .site-title h1{
+    margin: .3rem;
+    font-size: 68px;
+    line-height: 68.6px;
+}
+
+main .site-title h3{
+    margin: .3rem;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+main .site-title p {
+    font-size: 32px;
+    line-height: 38.4px;
+    color: white;   
+    margin-top: 35px;
+}
+
+main .site-title .btn{
+    /* margin: 1.8rem;
+    background: var(--sky); */
+    background-image: linear-gradient(to right, #3636f3,#be43f1);
+    border: none !important;
+    box-shadow: none !important;
+    font-size: 12px;
+    padding: 15px 50px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* main .site-title .btn:hover{
+    background: transparent;
+    border: 1px solid var(--white);
+    color: var(--white);
+} */
+
+/* --------x------ Site title --------x------- */
+
+/* --------------- Carousel ------------ */
+
+
+main .blog-post .blog-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin: 3rem 2rem;
+}
+
+
+main .blog-content .blog-title{
+    padding: 2rem 0;
+}
+
+main .blog-content .btn-blog{
+    padding: .7rem 2rem;
+    background: var(--sky);
+    margin: .5rem;
+}
+
+main .blog-content span{
+    display: block;
+}
+
+section .container .owl-nav{
+    position: absolute;
+    top: 0%;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.owl-nav .owl-prev .owl-nav-prev,
+.owl-nav .owl-next .owl-nav-next{
+    color: var(--text-gray);
+    background: transparent;
+    font-size: 2rem;
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover{
+    background: transparent;
+    color: var(--midnight);
+}
+
+.owl-theme .owl-nav [class*='owl-']{
+    outline: none;
+}
+
+.sliders {
+    margin: 0 5%;
+    justify-content: center;
+    display: flex;
+}
+
+
+
+
+
+.gallery-cell {
+    counter-increment: gallery-cell;
+    display: inline-block;
+    margin: 0;
+}
+.card.intro {
+    display: inline-block;
+    width: 360px;
+    height: 450px;
+    margin: 50px 10px;
+    border-radius: 0;
+    overflow: hidden;
+}
+.card.intelligence {
+    background-color: #081120;
+    background-size: 150px 150px;
+    width: 353px;
+    background-image: url(../assets/images/monogram.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 480px;
+    border: 1px solid white;
+}
+.card.aipower {
+    background-color: #081120;
+    background-size: 150px 150px;
+    background-image: url(../assets/images/ai_powered---white.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid white;
+    height: 480px;
+    width: 353px;
+}
+.card.secure {
+    background-color: #081120;
+    background-size: 150px 150px;
+    background-image: url(../assets/images/safe-and-secure---white.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid white;
+    height: 480px;
+    width: 353px;
+}
+.card.intro:hover {
+    border: 2px solid #0c80f1;
+    border-radius: 10px;
+    transition: all .51s;
+}
+.dec-small {
+    margin-top: 1rem;
+}
+.card p.dec-small {
+    color: #ffffff;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 370px;
+    letter-spacing: 0.9px;
+    line-height: 28.8px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #0c1d33;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+.card:hover .overlay {
+    height: 100%;
+}
+.intro-back {
+    padding: 10px;
+    cursor: default;
+}
+.back-text {
+    margin-top: 25px;
+}
+.back-text p{
+    font-size: 14px;
+    padding: 0 15px;
+    margin-top: 70px;
+    color: #fff;
+    text-align: left;
+    font-family: 'Avenir LT Std 55 Roman';
+}
+.title-img {
+    width: 50px!important;
+    margin: 10px;
+    float: left;
+}
+.intro-back .heading {
+    padding-top: 25px;
+    padding-top: 25px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Avenir LT Std 55 Roman';
+    text-align: left;
+}
+
+
+
+/* -------x------- Blog Carousel -----x------ */
+
+
+.solution-container {
+    background-color: #0e1d33;
+    border-radius: 77px;
+    margin: 30px;
+    margin-bottom: 100px;
+    box-shadow: 0 0 24px 0 rgba(7, 7, 7, 0.14);
+}
+.solution-container p {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    line-height: 60px;
+    letter-spacing: 2.4px;
+    color: white;
+}
+.solution-container h1 {
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 50px;
+    line-height: 60px;
+    margin: 0;
+    margin-top: 100px;
+}
+.solution-container .solution-circle1 {
+    margin-left: 88.3px;
+    padding: 60px;
+    border-radius: 50%;
+    width: 231px;
+    height: 231px;
+    box-shadow: 0 16px 24px 0 rgba(7, 7, 7, 0.14);
+    background-color: #0e1d33;
+}
+
+.solution-container .site-web h1 {
+    font-family: 'Avenir LT Std 85 Heavy';
+    color: white;
+    margin: 0;
+    margin-top: 0;
+    width: 441.2px;
+    height: 256px;
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 1;
+    letter-spacing: normal;
+    margin-right: 63.8px;
+}
+
+.solution-container .site-web p {
+    font-family: 'Avenir LT Std 55 Roman';
+    font-size: 16px;
+    width: 812px;
+    height: 66px;
+    opacity: 0.8;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.41;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    margin-top: 40.6px;
+    margin-bottom: 100px;
+}
+.site-web {
+    margin-left: 50.3px;
+    padding: 0;
+}
+
+.solution-container .post-content .post-space {
+    margin-top: 80.5px;
+}
+.solution-container .post-content .post-space2 {
+    margin-top: 140px;
+}
+.solution-container .post-content .post-right {
+    display: flex;
+    justify-content: flex-end;
+}
+.solution-container .solution-circle2 {
+    /* margin-left: 88.3px; */
+    padding: 60px;
+    border-radius: 50%;
+    width: 231px;
+    height: 231px;
+    box-shadow: 0 16px 24px 0 rgba(7, 7, 7, 0.14);
+    background-color: #0e1d33;
+}
+
+
+
+
+
+
+
+
+/* -------x-------- Site Content --------x-------*/
+
+
+/* --------------- Leads Section ----------------------- */
+
+.get_lead {
+    margin: 0 5%;
+}
+
+.lead-container p {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    line-height: 60px;
+    letter-spacing: 2.4px;
+    color: white;
+}
+.lead-container h1 {
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 50px;
+    line-height: 60px;
+    margin: 0;
+    margin-top: 100px;
+}
+
+.lead-container .Analyzer {
+    width: 100%;
+    height: 405px;
+    object-fit: contain;
+    border-radius: 16px;
+  }
+
+.lead-container .solution-circle1 {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.lead-container .header {
+    font-size: 24px;
+    line-height: 22.5px;
+    letter-spacing: 0.96px;
+    display: flex;
+    justify-content: center;
+    margin-top: 9.9px;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+}
+.lead-container .img1 {
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: relative;
+    top: -45px;
+}
+.lead-content {
+    margin-top: 80px;
+}
+.lead-content .para {
+    font-size: 16px;
+    line-height: 22.5px;
+    letter-spacing: 0.64px;
+    font-family: 'Avenir LT Std 55 Roman';
+    opacity: 80%;
+    position: relative;
+    top: -85px;
+}
+
+@media only screen and (max-width: 1200px){
+    
+
+}
+
+@media only screen and (max-width: 520px){
+    .lead-container .Analyzer {
+    width: 100%;
+    /*height: 405px;*/
+    object-fit: contain;
+    border-radius: 16px;
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.14);
+    position: relative;
+    top: -130px;
+  }
+
+}
+
+
+/* --------------- Domain Section ----------------------- */
+
+.domain {
+    margin: 0 5%;
+}
+
+.domain-container p {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    line-height: 60px;
+    letter-spacing: 2.4px;
+    color: white;
+}
+.domain-container h1 {
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 50px;
+    line-height: 60px;
+    margin: 0;
+    margin-top: 100px;
+}
+.domain-container .card {
+    background-color: #081120;
+    border: none;
+    border-radius: 2px;
+}
+.domain-container .card img {
+    width: 352px;
+    height: 300px;
+}
+.domain-container .card-body .card-title {
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.94;
+    letter-spacing: 0.96px;
+    color: #ffffff;
+}
+
+/* --------------- Investigate Section ----------------------- */
+
+.investigate {
+    margin: 0 5%;
+}
+
+.investigate-container p {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    line-height: 60px;
+    letter-spacing: 2.4px;
+    color: white;
+}
+.investigate-container h1 {
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 50px;
+    line-height: 60px;
+    margin: 0;
+    margin-top: 200px;
+}
+.investigate-container #hover:hover{
+    background: #0e1d33;
+}
+.investigate-container .investigation {
+    display: flex;
+    justify-content: center;
+    border-right: 2px solid #0e1d33;
+    border-bottom: 2px solid #0e1d33;
+    width: 362px;
+    height: 250px;
+}
+.investigate-container .investigation1 {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #0e1d33;
+    width: 362px;
+    height: 250px;
+}
+.investigate-container .investigation2 {
+    display: flex;
+    justify-content: center;
+    border-right: 2px solid #0e1d33;
+    width: 362px;
+    height: 250px;
+}
+.investigate-container .investigation3 {
+    display: flex;
+    justify-content: center;
+    border-right: 2px solid #0e1d33;
+    width: 362px;
+    height: 250px;
+}
+.investigate-container .investigation4 {
+    display: flex;
+    justify-content: center;
+    /* border-right: 2px solid #0e1d33; */
+    width: 362px;
+    height: 250px;
+}
+.investigate-container .investigation5 {
+    display: flex;
+    justify-content: center;
+    border-right: 2px solid #0e1d33;
+    border-bottom: 2px solid #0e1d33;
+    width: 362px;
+    height: 250px;
+}
+
+.investigate-container #hover h4 {
+    position: absolute;
+    top: 80%;
+    font-size: 18px;
+    line-height: 22.5px;
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: 0.72px;
+}
+
+
+.investigate-container .investigation img {
+    margin: 42px 0 0px -10px;
+}
+.investigate-container .investigation1 img {
+    margin: 68px 0 0px -10px;
+}
+.investigate-container .investigation2 img {
+    margin-top: 40px;
+}
+.investigate-container .investigation3 img {
+    margin-top: 42px;
+}
+.investigate-container .investigation4 img {
+    margin-top: 68px;
+}
+.investigate-container .investigation5 img {
+    margin: 40px;
+}
+
+.investigate-container .investigation:hover {
+    background: url(../assets/images/Crime-Blue.png) no-repeat center !important;
+    background-color: #0e1d33!important;
+}
+.investigate-container .investigation5:hover {
+    background: url(../assets/images/Cyber-Blue.png) no-repeat center !important;
+    background-color: #0e1d33!important;
+}
+.investigate-container .investigation1:hover {
+    background: url(../assets/images/Trafficking-Blue.png) no-repeat center !important;
+    background-color: #0e1d33!important;
+}
+.investigate-container .investigation2:hover {
+    background: url(../assets/images/CT-Blue.png) no-repeat center !important;
+    background-color: #0e1d33!important;
+}
+.investigate-container .investigation3:hover {
+    background: url(../assets/images/Money-Blue.png) no-repeat center !important;
+    background-color: #0e1d33!important;
+}
+.investigate-container .investigation4:hover {
+    background: url(../assets/images/Fraud-Blue.png) no-repeat center !important;
+    background-color: #0e1d33!important;
+}
+
+/* --------------- features Section ----------------------- */
+
+.Features {
+    margin: 0 5%;
+}
+
+#features .col-md-4 {
+    padding: 0 7.5px !important;
+}
+
+
+.features-container p {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    line-height: 60px;
+    letter-spacing: 2.4px;
+    color: white;
+    margin-bottom: 80px;
+}
+.features-container h1 {
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 50px;
+    line-height: 60px;
+    margin: 0;
+    margin-top: 200px;
+    text-shadow: 0 0 10px rgba(12, 128, 241, 0.4);
+}
+
+.Features .body {
+    width: 100%;
+    height: 300px;
+    box-shadow: 0 8px 12px 0 rgba(7, 7, 7, 0.14);
+    border: solid 1px var(--deep-sky-blue);
+    /* background-color: #0e1d33; */
+    /* padding: 28px; */
+}
+.Features .body .middle{
+    height: 250px;
+}
+
+.Features .middle1 {
+    margin-top: 200px;
+    background-color: #0e1d33;
+    color: white;
+    height: 300px;
+}
+
+.Features .middle2 {
+    /*margin-top: 200px;*/
+    background-color: #0e1d33;
+    color: white;
+    height: 300px;
+}
+.Features .middle3 {
+    margin-top: 200px;
+    background-color: #0e1d33;
+    color: white;
+    height: 300px;
+}
+.Features .middle4 {
+    margin-top: 15px;
+    background-color: #0e1d33;
+    color: white;
+    height: 300px;
+}
+.Features .middle5 {
+    margin-top: 15px;
+    background-color: #0e1d33;
+    color: white;
+    height: 300px;
+}
+.Features .middle6 {
+    margin-top: 15px;
+    background-color: #0e1d33;
+    color: white;
+    height: 300px;
+}
+.Features .middle7 {
+    margin-top: 15px;
+    background-color: #0e1d33;
+    color: white;
+    height: 300px;
+}
+.Features .feature-circle1 {
+    display: flex;
+    justify-content: center;
+}
+.Features .middle2 h4 {
+    font-size: 18px;
+    margin-top: 14.4px;
+}
+.Features .middle2 p {
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Avenir LT Std 55 Roman';
+    margin-top: 20px;
+}
+.Features hr {
+    border: 1px solid #081121;
+}
+.Features .keys {
+    font-size: 18px;
+    line-height: 22.5px;
+    letter-spacing: 0.72px;
+}
+.flip-card .flip-card-front h4{
+    color: #ffffff;
+    font-family: 'Avenir LT Std 55 Roman';
+    font-size: 18px;
+    line-height: 22.5px;
+    letter-spacing: 0.72px;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+
+
+.flip-card {
+    background-color: transparent;
+    width: 100%;
+    height: 300px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #0e1d33;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: #0e1d33;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+
+
+
+
+/* ----------------- About us --------------------- */
+
+.about {
+    margin: 0 5%;
+}
+
+.about-container h1 {
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 50px;
+    line-height: 60px;
+    margin: 0;
+    margin-top: 200px;
+    text-shadow: 0 0 10px rgba(12, 128, 241, 0.4);
+}
+.about-container .aboutimg {
+    width: 300px;
+    /* margin-left: 100px; */
+}
+.about-container .col-md-8 p {
+    font-size: 24px;
+    line-height: 1.3;
+    letter-spacing: 0.96px;
+    text-align: left;
+    color: #ffffff;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    font-family: 'Avenir LT Std 55 Roman';
+}
+
+
+/* ----------------- Demo --------------------- */
+
+.demo {
+    margin: 0 5%;
+}
+.demo h1 {
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 80px;
+    line-height: 80px;
+    margin: 0;
+    /* margin-top: 100px; */
+    text-shadow: 0 0 10px rgba(12, 128, 241, 0.4);
+    margin-left: 30px;
+}
+.demo img {
+    width: 90%;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+.demo form h4 {
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    opacity: 0.6;
+    text-transform: uppercase;
+    font-family: 'Avenir LT Std 55 Roman';
+}
+
+.demo form input[type=text] {
+    background-color: #0e1d33;
+    border-radius: 2px;
+    border: solid 1px rgba(242, 242, 242, 0.2);
+}
+.demo form #contact-us-country{
+    background-color: #0e1d33;
+    border-radius: 2px;
+    border: solid 1px rgba(242, 242, 242, 0.2);
+}
+.demo form #contact-us-message{
+    background-color: #0e1d33;
+    border-radius: 2px;
+    border: solid 1px rgba(242, 242, 242, 0.2);
+}
+.demo form button {
+    border-radius: 2px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+}
+.demo form button {
+    font-family: 'Avenir LT Std 55 Roman';
+    font-size: 16px;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-transform: uppercase;
+}
+
+
+
+/* ---------x------- Demo -----x----- */
+
+/* ---------x------- Main Content -----x----- */
+
+
+/* ----------------- Footer --------------------- */
+
+
+
+span[class*="-border-xl"] {
+    position: absolute;
+    border-bottom: 3px solid #0c80f4;
+}
+
+.vl {
+    border-left: 2px solid rgb(47, 52, 51);
+    height: 140px;
+    margin-left: -3px;
+    top: 0;
+    margin-right: 10px;
+  }
+
+.footer-container {
+    padding-top: 60px;
+    border-top: 2px solid blue;
+}
+
+footer .solutions-border-xl {
+    width: 100%;
+    height: 10px;
+    /* bottom: -8px; */
+    left: 5px;
+}
+
+footer img {
+    width: 148px;
+    margin-right: 128px;
+}
+
+footer p {
+    margin: 10px;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 21.6px;
+    opacity: 0.2;
+    font-family: 'Avenir LT Std 55 Roman';
+    font-weight: normal;
+}
+
+footer .footbot {
+    background-color: rgb(1, 14, 24);
+}
+footer .footer-items li {
+    margin: 10px 0;
+}
+footer .footer-items a {
+    color: white;
+    text-decoration: none;
+}
+
+.fa-arrow-circle-up {
+    position: absolute;
+    right: 6%;
+    color: #104f55;
+    margin-top: 100px;
+}
+.footer-logo {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-toggler {
+    color: #ffffff !important;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url(../assets/images/toggle-menu.png);
+}
+
+/* ---------x------- Footer ----------x---------- */
+
+
+/* Make the container relative */
+.swap-on-hover {
+    position: relative;	
+      margin:  0 auto;
+      max-width: 400px;
+  }
+  
+  /* Select the image and make it absolute to the container */
+  .swap-on-hover img {
+    position: absolute;
+    top:0;
+    left:0;
+      overflow: hidden;
+      /* Sets the width and height for the images*/
+      width: 400px;
+      height: 400px;
+  }
+  
+  /* 
+      We set z-index to be higher than the back image, so it's alwyas on the front.
+  
+  We give it an opacity leaner to .25s, that way when we hover we will get a nice fading effect. 
+  */
+  .swap-on-hover .swap-on-hover__front-image {
+    z-index: 9999;
+    transition: opacity .5s linear;
+    cursor: pointer;
+  }
+  
+  /* When we hover the figure element, the block with .swap-on-hover, we want to use > so the front-image is going to have opacity of 0, which means it will be hidden, to the back image will show */
+  .swap-on-hover:hover > .swap-on-hover__front-image{
+    opacity: 0;
+  }
+  
+
+
+
+
+
+
+/*              Viewport less then or equal to 1130px            */
+
+@media only screen and (min-width: 1279px) and (max-width: 1366px){
+    .sliders {
+        position: relative;
+        top: -200px;
+    }
+    /* .investigate-container .investigation:hover {
+        background: url(../assets/images/Crime-Blue.png) no-repeat center !important;
+        padding: 10px;
+        transition: padding 0.3s; */
+
+
+}
+@media only screen and (min-width: 1130px) and (max-width: 1279px){
+    .sliders {
+        position: relative;
+        top: -px;
+    }
+
+
+}
+
+
+
+
+@media only screen and (max-width: 1130px){
+    .site-content .post-content > .post-image .post-info{
+        left: 2rem !important;
+        bottom: 1.2rem !important;
+        border-radius: 0% !important;
+    }
+
+    .site-content .sidebar .popular-post .post-info{
+        display: none !important;
+    }
+
+    footer.footer .container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+
+
+
+/*      x       Viewport less then or equal to 1130px    x     */
+
+
+/*              Viewport less then or equal to 750px            */
+
+@media only screen and (max-width: 750px){
+    .nav .nav-menu, .nav .nav-items{
+        flex-direction: column;
+    }
+
+    .nav .toggle-collapse{
+        display: initial;
+    }
+
+    main .site-content{
+        grid-template-columns: 100%;
+    }
+
+    footer.footer .container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
+
+/*        x      Viewport less then or equal to 750px       x     */
+
+
+/*              Viewport less then or equal to 520px            */
+
+@media only screen and (max-width: 520px){
+    main .blog{
+        height: 125vh;
+    }
+
+    .site-content .post-content > .post-image .post-info{
+        display: none;
+    }
+
+    footer.footer .container > div{
+        padding:  1rem .9rem !important;
+    }
+
+    footer .rights{
+        padding: 0 1.4rem;
+        text-align: center;
+    }
+
+    nav .toggle-collapse{
+        width: 80% !important;
+    }
+
+}
+
+/*        x      Viewport less then or equal to 520px       x     */
+
+
+/* BODY SCROLLBAR */
+body::-webkit-scrollbar,
+textarea::-webkit-scrollbar {
+    width: 4px;
+}
+
+body::-webkit-scrollbar-track,
+textarea::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, .2);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+body::-webkit-scrollbar-thumb,
+textarea::-webkit-scrollbar-thumb {
+    background-color: rgba(243, 243, 243, 0.4);
+    outline: 1px solid rgba(8, 6, 6, 0.4);
+}
+
+
+/* Handle on hover */
+
+body::-webkit-scrollbar-thumb:hover,
+textarea::-webkit-scrollbar-thumb:hover {
+    background: rgba(253, 253, 253, 0.6);
+}
+
